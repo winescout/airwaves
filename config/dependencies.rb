@@ -24,5 +24,5 @@ dependency "merb-slices", merb_gems_version
 #dependency "dm-types", dm_gems_version        
 #dependency "dm-validations", dm_gems_version  
 
-#dependency "merb_facebooker"
+dependency "merb_facebooker"
 dependency "merb-haml"
