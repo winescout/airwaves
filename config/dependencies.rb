@@ -16,13 +16,17 @@ dependency "merb-slices", merb_gems_version
 #dependency "merb-param-protection", merb_gems_version
 #dependency "merb-exceptions", merb_gems_version
  
-#dependency "do_mysql", dm_gems_version
-#dependency "dm-core", dm_gems_version         
-#dependency "dm-aggregates", dm_gems_version   
-#dependency "dm-migrations", dm_gems_version   
-#dependency "dm-timestamps", dm_gems_version   
-#dependency "dm-types", dm_gems_version        
-#dependency "dm-validations", dm_gems_version  
+dependency "do_mysql", dm_gems_version
+dependency "dm-core", dm_gems_version         
+dependency "dm-aggregates", dm_gems_version   
+dependency "dm-migrations", dm_gems_version   
+dependency "dm-timestamps", dm_gems_version   
+dependency "dm-types", dm_gems_version        
+dependency "dm-validations", dm_gems_version  
+dependency 'dm-solr-adapter'
 
-dependency "merb_facebooker"
+dependency "merb-facebooker"
 dependency "merb-haml"
+
+
+

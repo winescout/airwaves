@@ -1,8 +1,0 @@
----
-development: &defaults
-  # These are the settings for repository :default
-  adapter:  mysql
-  database: airwaves
- 
-rake:
-  <<: *defaults
